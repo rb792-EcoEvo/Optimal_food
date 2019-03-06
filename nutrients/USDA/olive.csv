@@ -1,0 +1,44 @@
+Source: USDA National Nutrient Database for Standard Reference 1 April 2018 Software v.3.9.5.1_2019-01-29
+Basic Report
+Report Run at: March 06 2019 06:20 EST
+"Nutrient data for: Olives, ripe, canned (small-extra large)"
+Nutrient,Unit,1Value per 100 g,"1 tbsp = 8.4g","1 large = 4.4g","1 small = 3.2g",
+Proximates
+"Water",g,79.99,6.72,3.52,2.56
+"Energy",kcal,116,10,5,4
+"Protein",g,0.84,0.07,0.04,0.03
+"Total lipid (fat)",g,10.90,0.92,0.48,0.35
+"Carbohydrate, by difference",g,6.04,0.51,0.27,0.19
+"Fiber, total dietary",g,1.6,0.1,0.1,0.1
+"Sugars, total",g,0.00,0.00,0.00,0.00
+Minerals
+"Calcium, Ca",mg,88,7,4,3
+"Iron, Fe",mg,6.28,0.53,0.28,0.20
+"Magnesium, Mg",mg,4,0,0,0
+"Phosphorus, P",mg,3,0,0,0
+"Potassium, K",mg,8,1,0,0
+"Sodium, Na",mg,735,62,32,24
+"Zinc, Zn",mg,0.22,0.02,0.01,0.01
+Vitamins
+"Vitamin C, total ascorbic acid",mg,0.9,0.1,0.0,0.0
+"Thiamin",mg,0.003,0.000,0.000,0.000
+"Riboflavin",mg,0.000,0.000,0.000,0.000
+"Niacin",mg,0.037,0.003,0.002,0.001
+"Vitamin B-6",mg,0.009,0.001,0.000,0.000
+"Folate, DFE",µg,0,0,0,0
+"Vitamin B-12",µg,0.00,0.00,0.00,0.00
+"Vitamin A, RAE",µg,17,1,1,1
+"Vitamin A, IU",IU,330,28,15,11
+"Vitamin E (alpha-tocopherol)",mg,1.65,0.14,0.07,0.05
+"Vitamin D (D2 + D3)",µg,0.0,0.0,0.0,0.0
+"Vitamin D",IU,0,0,0,0
+"Vitamin K (phylloquinone)",µg,1.4,0.1,0.1,0.0
+Lipids
+"Fatty acids, total saturated",g,2.279,0.191,0.100,0.073
+"Fatty acids, total monounsaturated",g,7.652,0.643,0.337,0.245
+"Fatty acids, total polyunsaturated",g,0.629,0.053,0.028,0.020
+"Fatty acids, total trans",g,0.000,0.000,0.000,0.000
+"Cholesterol",mg,0,0,0,0
+Amino Acids
+Other
+"Caffeine",mg,0,0,0,0
