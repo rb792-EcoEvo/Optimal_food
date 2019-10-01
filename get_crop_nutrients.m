@@ -104,15 +104,20 @@ warning("range in RDI nutrient spreadsheet hardcoded.");
 RDI_nutrients = RDI_nutrients(:,[1 4:6]);
 RDI_nutrients.nutrient = string(RDI_nutrients.nutrient);
 RDI_nutrients.unit = string(RDI_nutrients.unit);
-RDI_nutrients.RDI_min = str2double(RDI_nutrients.RDI_min);
-RDI_nutrients.RDI_max = str2double(RDI_nutrients.RDI_max);
-
+if ~isa(RDI_nutrients.RDI_min,'double')
+    RDI_nutrients.RDI_min = str2double(RDI_nutrients.RDI_min);
+end
+if ~isa(RDI_nutrients.RDI_max,'double')
+    RDI_nutrients.RDI_max = str2double(RDI_nutrients.RDI_max);
+end
 
 remove_nutrients = isnan(RDI_nutrients.RDI_min) | ...
     (RDI_nutrients.nutrient == "Vitamin B-12") | ...
     (RDI_nutrients.nutrient == "Vitamin D (D2 + D3)") | ...
+    (RDI_nutrients.nutrient == "Fatty acids, total saturated") | ...
+    (RDI_nutrients.nutrient == "Sodium, Na") | ...
     (RDI_nutrients.nutrient == "Cholesterol");
-warning("Removing Vitamins B12 and D, and Cholesterol.")
+warning("Removing Vitamins B12, D, Cholesterol and total saturated Fatty acids.")
 Crop_nutrients = Crop_nutrients(~remove_nutrients,:);
 RDI_nutrients  = RDI_nutrients(~remove_nutrients,:);
 
